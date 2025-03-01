@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import images from '../assets/assets';
 
 function Register() {
 
@@ -19,7 +20,7 @@ function Register() {
     <FormContainer>
       <form onSubmit={(event) => handleSubmit(event)}>
         <div className="brand">
-          <img src="logo192.png" alt="logo" />
+          <img src={images.logo} alt="logo" />
           <h1>Chat</h1>
         </div>
         <input type="text"
@@ -52,11 +53,6 @@ function Register() {
   );
 }
 
-const FormContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-`;
+const FormContainer = styled.div``;
 
 export default Register;
