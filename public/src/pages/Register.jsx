@@ -76,9 +76,9 @@ function Register() {
 
     if (data.status === true) {
       toast.success('User created successfully', toastoptions);
-      localStorage.setItem('chat-app-user', JSON.stringify(data.user));
+      localStorage.setItem('chat-user', JSON.stringify(data.user));
       setTimeout(() => {
-        navigate('/');
+        navigate('/login');
       }, 3000);
     }
 
