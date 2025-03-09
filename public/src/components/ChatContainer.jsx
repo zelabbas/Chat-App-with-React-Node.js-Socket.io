@@ -126,12 +126,13 @@ const Container = styled.div`
 
 .chat-users {
     /* background-color: white; */
+    max-height: 650px;
     padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     overflow: auto;
-    background-color: red;
+    /* background-color: red; */
     .message {
         /* background-color: red; */
         display: flex;
