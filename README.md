@@ -149,6 +149,5 @@ This project is licensed under the ISC License.
 - Socket.io for real-time communication
 - React.js community for excellent documentation
 - MongoDB for flexible data storage
-- All contributors who helped improve this project
 
 ---
